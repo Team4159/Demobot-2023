@@ -145,4 +145,47 @@ public final class Constants {
             new TrapezoidProfile.Constraints(
                 kMaxAngularSpeedRadiansPerSecond, kMaxAngularSpeedRadiansPerSecondSquared);
     }
+
+    public static final class Ids {
+        public static final int intakeId = 0;
+        public static final int feederId = 0;
+        public static final int neckId = 0;
+        public static final int turretId = 0;
+        public static final int shooterId = 0;
+      }
+    
+      public static final class IntakeConstants {
+
+      }
+    
+      public static final class FeederConstants {
+
+      }
+    
+      public static final class NeckConstants {
+       
+      }
+    
+      public static final class ShooterConstants {
+       
+      }
+    
+      public static final class TurretConstants {
+       
+      }
+    
+      public static final class JoystickConstants {
+        public static final int primaryPort = 0;
+    
+        public static final int secondaryPort = 1;
+    
+        public static final class Secondary {
+          public static final int intake = 0;
+          public static final int outtake = 0;
+          public static final int feed = 0;
+          public static final int neck = 0;
+          public static final int turret = 0;
+          public static final int shoot = 0;
+        }
+    }    
 }
